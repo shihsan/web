@@ -4,6 +4,26 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="event.css" />
+	<script type='text/javascript' src="jquery-1.9.1.min.js"></script>
+	<script type='text/javascript'>
+	$(function(){
+		var w = $("#mwt_slider_content").width();
+		$('#mwt_slider_content').css('height', ($(window).height() - 20) + 'px' ); //將區塊自動撐滿畫面高度
+ 
+		$("#mwt_fb_tab").mouseover(function(){ //滑鼠滑入時
+			if ($("#mwt_mwt_slider_scroll").css('right') == '-'+w+'px')
+			{
+				$("#mwt_mwt_slider_scroll").animate({ right:'0px' }, 600 ,'swing');
+			}
+		});
+ 
+ 
+		$("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
+			$("#mwt_mwt_slider_scroll").animate( { right:'-'+w+'px' }, 600 ,'swing');	
+		});	
+	});
+ 
+</script>
 	<title>小人物</title>
 </head>
 
@@ -29,11 +49,59 @@
 	</div>
 <!--end of nav bar-->
 
-<!--content-->	
+<!--content-->
+	<div id="mwt_mwt_slider_scroll">
+		 <div id="mwt_fb_tab">
+			<span>S</span>
+			<span>e</span>
+			<span>a</span>
+			<span>r</span>
+			<span>c</span>
+			<span>h</span>
+		</div>
+		<div id="mwt_slider_content">
+			<form class="search" action="" method="post">
+ 				<label for="search-box">Search:</label>
+  				<input id="search-box" type="text" name="search">
+			</form>
+			<h3>最新志工活動</h3>
+			<div class="event_time button">
+				<h3>志工活動舉辦時間</h3>
+				<ul>
+					<li>過去活動</li>
+					<li>未來2個月以上</li>
+					<li>未來1個月</li>
+					<li>未來2星期</li>
+					<li>未來1星期</li>		
+				</ul>
+			</div>	
+			<div "event_region">
+				<h3>地區</h3>
+				<ul>
+					<li>地圖</li>
+				</ul>
+			</div>
+			<div "event_category">
+				<h3>活動類別</h3>
+				<ul>
+					<li>行政</li>
+					<li>藝文</li>
+					<li>環保</li>
+					<li>教育</li>
+					<li>照護</li>
+					<li>活動舉辦</li>
+					<li>營隊</li>
+					<li>其他</li>			
+				</ul>
+			</div>
+		</div>
+	</div>	
+
 	<section>
 		<div class="event_add">
 			<a href="#">辦志工活動</a>
-		</div>	
+		</div>
+		
 		<div class="event_block">
 			<div  class="event_pic">	
 				<img src="images/sister.jpg">
@@ -49,7 +117,9 @@
 		</div>		
 		
 		<div class="event_block">
-			<div  class="event_pic">活動圖片</div>
+			<div  class="event_pic">
+				<img src="images/sister.jpg">
+			</div>
 			<div class="event_info">	
 				<ul>
 					<li>活動名稱</li>
@@ -61,7 +131,9 @@
 		</div>
 		
 		<div class="event_block">
-			<div  class="event_pic">活動圖片</div>
+			<div  class="event_pic">
+				<img src="images/sister.jpg">
+			</div>
 			<div class="event_info">	
 				<ul>
 					<li>活動名稱</li>
@@ -73,7 +145,9 @@
 		</div>
 		
 		<div class="event_block">
-			<div  class="event_pic">活動圖片</div>
+			<div  class="event_pic">
+				<img src="images/sister.jpg">
+			</div>
 			<div class="event_info">	
 				<ul>
 					<li>活動名稱</li>
@@ -85,7 +159,9 @@
 		</div>
 		
 		<div class="event_block">
-			<div  class="event_pic">活動圖片</div>
+			<div  class="event_pic">
+				<img src="images/sister.jpg">
+			</div>
 			<div class="event_info">	
 				<ul>
 					<li>活動名稱</li>
@@ -96,40 +172,6 @@
 			</div>
 		</div>
 	</section>
-	
-	<aside class="event_aside">
-		<div class="event_search bar">search bar</div>
-		<div class="event_latest button"><h3>最新志工活動</h3></div>
-		<div class="event_time button">
-			<h3>志工活動舉辦時間</h3>
-			<ul>
-				<li>過去活動</li>
-				<li>未來2個月以上</li>
-				<li>未來1個月</li>
-				<li>未來2星期</li>
-				<li>未來1星期</li>		
-			</ul>
-		</div>	
-		<div "event_region">
-			<h3>地區</h3>
-			<ul>
-				<li>地圖</li>
-			</ul>
-		</div>
-		<div "event_category">
-			<h3>活動類別</h3>
-			<ul>
-				<li>行政</li>
-				<li>藝文</li>
-				<li>環保</li>
-				<li>教育</li>
-				<li>照護</li>
-				<li>活動舉辦</li>
-				<li>營隊</li>
-				<li>其他</li>			
-			</ul>
-		</div>
-	</aside>
 <!--end of content-->
 
 <!--footer-->

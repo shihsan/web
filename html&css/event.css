@@ -4,6 +4,7 @@
 body
 {
 	width:100%;
+	margin: 0;
 }
 #header-wrapper
 {
@@ -40,40 +41,6 @@ body
 	padding-right: 2em;
 	text-align: center;
 }
-
-/*********************************************************************************/
-/* content                                                                       */
-/*********************************************************************************/
-.event_add
-{
-	height:2em;
-	padding-left: 70em;
-}
-.event_block
-{
-	border-radius: 0.5em;
-	height:30em;
-	width: 20em;
-	background-color: rgb(255 , 187 , 100);
-	display: block;
-	float: left;
-	margin-right: 2em;
-	margin-left: 3em;
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
- .event_block img
-{
-	border-radius: 0.5em;
-	height:18em;
-	width: 18em;
-	padding-left: 1em;
-	padding-top: 1em;
-	margin:0 auto;
-}
-
-
-
 /* Everything CSS Sprite Menu */
 ul#menu
 {	
@@ -206,6 +173,133 @@ ul#menu
 #Right-nav li.signin a.selected
 {
 	background-position:-5px -145px;
+}
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+
+.event_add
+{
+	height:2em;
+	padding-left: 70em;
+}
+.event_block
+{
+	border-radius: 0.5em;
+	height:30em;
+	width: 20em;
+	background-color: #ffe187;
+	display: block;
+	float: left;
+	margin-right: 2em;
+	margin-left: 3em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+ .event_block img
+{
+	border-radius: 0.5em;
+	height:18em;
+	width: 18em;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin:0 auto;
+}
+.event_info ul
+{
+	list-style-type: none;
+	line-height: 1.5em;
+}
+
+/*********************************************************************************/
+/* search-bar                                                                    */
+/*********************************************************************************/
+
+#mwt_mwt_slider_scroll
+{
+	top: 0;
+	right:-200px;
+	width:200px;	
+	position:fixed;
+	z-index:9999;
+}
+
+
+#mwt_slider_content{
+	background:#ffb964;
+	text-align:left;
+	padding-top:20px;
+	padding-left: 1.2em;
+}
+#mwt_slider_content h3
+{
+	color:rgb(195,55,30);
+}
+#mwt_slider_content ul
+{
+	color:black;
+	list-style-type: none;
+}
+#mwt_slider_content li
+{
+	line-height: 1.5em;
+}
+ 
+#mwt_fb_tab {
+	position:absolute;
+	top:170px;
+	left:-24px;
+	width:24px;
+	background:#ffb964;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;	
+	text-align:center;
+	padding:9px 0;
+ 
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;	
+}
+#mwt_fb_tab span {
+	display:block;
+	height:12px;
+	padding:1px 0;
+	line-height:12px;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+.search label{
+    font-size:0.75em;
+    font-weight:bold;
+    color:#333;
+    text-indent:-9999em;
+    display:block;
+    float:left;
+}
+.search input[type="text"]{
+    text-indent:1px;
+    padding:0 0 0 22px;
+    width:0;
+    height:22px;
+    background:url(http://www.ian-thomas.net/examples/search-icon.png)2px 2px no-repeat, -webkit-linear-gradient(top, rgba(100,100,100,1) 0%,rgba(80,80,80,1) 10%,rgba(22,22,22,1)100%);
+    color:#999;
+    line-height:20px;
+    font-weight:bold;
+    -webkit-text-shadow:1px 1px 1pxrgba(0,0,0,0.05);
+    text-shadow:1px 1px 1pxrgba(0,0,0,0.05);
+    -webkit-border-radius:6px;
+    -webkit-box-shadow:1px 1px 0rgba(0,0,0,0.125);
+    cursor:pointer;
+     width:150px;
+}
+.search input[type="text"]:focus{
+    width:150px;
+    outline:none;
+    background:url(http://www.ian-thomas.net/examples/search-icon.png)2px 2px no-repeat, -webkit-linear-gradient(bottom,rgba(100,100,100,1) 0%, rgba(40,40,40,1) 2%, rgba(22,22,22,1)100%);
+    -webkit-box-shadow:1px 1px 0 rgba(255,255,255,0.125);
+    cursor:text;
 }
 
 /*********************************************************************************/
