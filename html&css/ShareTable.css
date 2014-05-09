@@ -1,6 +1,7 @@
 body
 {
 	width:100%;
+	margin: 0;
 }
 #header-wrapper
 {
@@ -14,74 +15,6 @@ body
 	float:left;
 	padding-left: 2em;
 }
-#header-wrapper #Left-nav ul
-{
-	display:block;
-	float:left;
-	padding-left: 2em;
-	padding-top: 1.5em;
-	padding-top: 1.25em;
-}
-#header-wrapper #Right-nav ul
-{
-	display:block;
-	float:right;
-	padding-right: 2em;
-	padding-top: 1.5em;
-	padding-top: 1.25em;
-}
-	
-#header-wrapper #Left-nav li , #header-wrapper #Right-nav li
-{
-	display: inline;
-	padding-right: 2em;
-	text-align: center;
-}
-
-/*********************************************************************************/
-/* content                                                                       */
-/*********************************************************************************/
-.thoughts_title
-{
-	height:5em;
-}
-
-.thoughts_title h2
-{
-	display:inline;
-	float:left;
-	padding-left: 2em;
-}
-.thoughts_title h3
-{
-	display:inline;
-	float:right;
-	padding-right: 2em;
-}
-.thoughts_table
-{
-	margin-left: 3em;
-}
-.thoughts_table .feedback
-{
-	height:10em;
-	width:100em;
-	margin-bottom: 2em;
-
-}
-.thoughts_table .photo1, .thoughts_table .photo1 img
-{
-	height:10em;
-	width:10em;
-	float: left;
-	margin-right: 2em;
-}
-.thoughts_table .article1
-{
-	padding-left: 1em;
-}
-
-
 
 /* Everything CSS Sprite Menu */
 ul#menu
@@ -100,6 +33,8 @@ ul#menu
 	margin-right:2px;
 	margin-bottom: 2px;
 	padding-bottom: 2px;
+	padding-left: 2em;
+	padding-top: 1.25em;
 }
 #Right-nav #menu li
 {	
@@ -109,6 +44,9 @@ ul#menu
 	float:right;
 	margin-right:2px;
 	margin-bottom: 2px;
+	padding-right: 2em;
+	padding-bottom: 0;
+	padding-top: 1.25em;
 }
 #menu li a
 {	
@@ -216,6 +154,51 @@ ul#menu
 {
 	background-position:-5px -145px;
 }
+
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+.thoughts_title
+{
+	height:5em;
+}
+
+.thoughts_title h2
+{
+	display:inline;
+	float:left;
+	padding-left: 2em;
+}
+.thoughts_title h3
+{
+	display:inline;
+	float:right;
+	padding-right: 2em;
+}
+.thoughts_table
+{
+	margin-left: 3em;
+}
+.thoughts_table .feedback
+{
+	height:10em;
+	width:100em;
+	margin-bottom: 2em;
+
+}
+.thoughts_table .photo1, .thoughts_table .photo1 img
+{
+	height:10em;
+	width:10em;
+	float: left;
+	margin-right: 2em;
+}
+.thoughts_table .article1
+{
+	padding-left: 1em;
+}
+
+
 /*********************************************************************************/
 /* footer                                                                        */
 /*********************************************************************************/

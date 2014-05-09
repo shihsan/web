@@ -6,6 +6,7 @@ body
 	width:100%;
 	margin: 0;
 }
+
 #header-wrapper
 {
 	height:5em;
@@ -18,60 +19,6 @@ body
 	float:left;
 	padding-left: 2em;
 }
-#header-wrapper #Left-nav ul
-{
-	display:block;
-	float:left;
-	padding-left: 2em;
-	padding-top: 1.25em;
-}
-#header-wrapper #Right-nav ul
-{
-	display:block;
-	float:right;
-	padding-right: 2em;
-	padding-bottom: 0;
-	padding-top: 1.25em;
-}
-	
-#header-wrapper #Left-nav li , #header-wrapper #Right-nav li
-{
-	display: inline;
-	padding-right: 2em;
-	text-align: center;
-}
-
-/*********************************************************************************/
-/* content                                                                       */
-/*********************************************************************************/
-.lastest_act, .hot_act
-{	
-	height:45em;
-	padding-left: 3em;
-}
-.hot_article
-{
-	height: 25em;
-	padding-left: 3em;
-}
-.lastest_act, .hot_act, .hot_article h2
-{
-	color:#F65203;
-}
-.box1,  .box2,  .box3 ,.box4,.box5,.box6
-{
-	height:20em;
-	width: 20em;
-	background-color: rgb(255 , 187 , 100);
-	display: block;
-	float: left;
-	margin-right: 2em;
-}
-.box4, .box5,.box6
-{
-	margin-top: 2em;
-}
-
 
 /* Everything CSS Sprite Menu */
 ul#menu
@@ -90,6 +37,8 @@ ul#menu
 	margin-right:2px;
 	margin-bottom: 2px;
 	padding-bottom: 2px;
+	padding-left: 2em;
+	padding-top: 1.25em;
 }
 #Right-nav #menu li
 {	
@@ -99,6 +48,9 @@ ul#menu
 	float:right;
 	margin-right:2px;
 	margin-bottom: 2px;
+	padding-right: 2em;
+	padding-bottom: 0;
+	padding-top: 1.25em;
 }
 #menu li a
 {	
@@ -205,6 +157,37 @@ ul#menu
 #Right-nav li.signin a.selected
 {
 	background-position:-5px -145px;
+}
+
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+.lastest_act, .hot_act
+{	
+	height:45em;
+	padding-left: 3em;
+}
+.hot_article
+{
+	height: 25em;
+	padding-left: 3em;
+}
+.lastest_act, .hot_act, .hot_article h2
+{
+	color:#F65203;
+}
+.box1,  .box2,  .box3 ,.box4,.box5,.box6
+{
+	height:20em;
+	width: 20em;
+	background-color: rgb(255 , 187 , 100);
+	display: block;
+	float: left;
+	margin-right: 2em;
+}
+.box4, .box5,.box6
+{
+	margin-top: 2em;
 }
 
 
