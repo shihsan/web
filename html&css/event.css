@@ -18,29 +18,15 @@ body
 	float:left;
 	padding-left: 2em;
 }
-#header-wrapper #Left-nav ul
-{
-	display:block;
-	float:left;
-	padding-left: 2em;
-	padding-top: 1.5em;
-	padding-top: 1.25em;
+
+#header-wrapper #logo img{
+	width: 8em;
+	padding-top: 3px;
 }
-#header-wrapper #Right-nav ul
-{
-	display:block;
-	float:right;
-	padding-right: 2em;
-	padding-top: 1.5em;
-	padding-top: 1.25em;
+#header-wrapper #logo::after{
+	clear: both;
 }
-	
-#header-wrapper #Left-nav li , #header-wrapper #Right-nav li
-{
-	display: inline;
-	padding-right: 2em;
-	text-align: center;
-}
+
 /* Everything CSS Sprite Menu */
 ul#menu
 {	
@@ -58,6 +44,8 @@ ul#menu
 	margin-right:2px;
 	margin-bottom: 2px;
 	padding-bottom: 2px;
+	padding-left: 2em;
+	padding-top: 1.25em;
 }
 #Right-nav #menu li
 {	
@@ -67,10 +55,13 @@ ul#menu
 	float:right;
 	margin-right:2px;
 	margin-bottom: 2px;
+	padding-right: 2em;
+	padding-bottom: 0;
+	padding-top: 1.25em;
 }
 #menu li a
 {	
-	background:url('images/menu-sprite.jpg') no-repeat;
+	background:url('images/menu.png') no-repeat;
 	width:100%;
 	height:100%;
 	display:block;
@@ -120,7 +111,8 @@ ul#menu
 
 #Left-nav li.ngo
 {
-	width:160px; height:60px;
+	width:120px; 
+	height:60px;
 }
 #Left-nav li.ngo a
 {
@@ -139,40 +131,40 @@ ul#menu
 
 #Right-nav li.login
 {
-	width:115px;
+	width:100px;
 	height:60px;
 }
 #Right-nav li.login a
 {
-	background-position:-5px -5px;
+	background-position:-450px -5px;
 }
 #Right-nav li.login a:hover
 {
-	background-position:-5px -75px;
+	background-position:-450px -75px;
 }
 #Right-nav li.login a.selected
 {
-	background-position:-5px -145px;
+	background-position:-450px -145px;
 }
 
 /* signin Button */
 
 #Right-nav li.signin
 {
-	width:115px;
+	width:80px;
 	height:60px;
 }
 #Right-nav li.signin a
 {
-	background-position:-5px -5px;
+	background-position:-370px -5px;
 }
 #Right-nav li.signin a:hover
 {
-	background-position:-5px -75px;
+	background-position:-370px -75px;
 }
 #Right-nav li.signin a.selected
 {
-	background-position:-5px -145px;
+	background-position:-370px -145px;
 }
 /*********************************************************************************/
 /* content                                                                       */
@@ -311,7 +303,8 @@ footer{
 	color: rgb(234 , 97 , 48);
 	clear:both;
 	background-color: rgb(255 , 222 , 94);
-	height: 3em;
+	height: 18em;
+	text-align: center;
 }
 
 footer a{
@@ -341,6 +334,7 @@ footer ul{
 	padding: 0;
 	display: table;
 	list-style-type: none;
+	line-height: 5em;
 }
 footer li
 {
