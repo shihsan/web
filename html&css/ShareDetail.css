@@ -158,45 +158,56 @@ ul#menu
 /*********************************************************************************/
 /* content                                                                       */
 /*********************************************************************************/
-.thoughts_title
+.thoughts img
 {
-	height:5em;
-}
-
-.thoughts_title h1
-{
-	color:rgb(250,80,5);
-	display:inline;
-	float:left;
-	padding-left: 2em;
-}
-.thoughts_title h3
-{
-	display:inline;
-	float:right;
-	padding-right: 2em;
-}
-.thoughts_table
-{
-	margin-left: 4.5em;
-}
-.thoughts_table .feedback
-{
-	height:15em;
-	width:100em;
+	margin-left: 5em;
 	margin-bottom: 2em;
+	width:500px;
+	height:500px;
+	float:left;
+	border-radius: 2em;
 
 }
-.thoughts_table .photo1, .thoughts_table .photo1 img
+.thoughts .foundation 
 {
-	height:15em;
-	width:15em;
-	float: left;
-	margin-right: 2em;
+	width:500px;
+	height: 500px;
+	float:left;
+	margin-left: 5em;
+	margin-bottom: 2em;
+	background-color:rgb(255,220,95);
+	border-radius: 2em;
 }
-.thoughts_table .article1
+.thoughts .foundation h3
 {
-	padding-left: 1em;
+	background-color:rgb(255,175,60);
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+	text-align: center;
+	height: 1em;
+	padding: 1em;
+	margin-top:0; 
+}
+.thoughts .foundation ul
+{
+	list-style-type: none;
+	line-height: 5em;
+}
+.thoughts .detail 
+{
+	clear:both;
+	margin-left:5em; 
+	margin-bottom: 2em;
+	width:1000px;
+	background-color:rgb(255,220,95);
+	border-radius: 2em;
+	display: block;
+}
+
+.thoughts .detail 
+{
+	padding: 2em;
+	line-height: 1.5em;
 }
 
 
