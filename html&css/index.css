@@ -17,15 +17,14 @@ body
 {
 	display:block;
 	float:left;
-	padding-left: 2em;/*
-	margin-right: -15em;*/
+	padding-left: 2em;
 }
 
 #header-wrapper #logo img{
-	/*width: 35%;*/
+	width: 8em;
 	padding-top: 3px;
 }
-#header-wrapper #logo:after{
+#header-wrapper #logo::after{
 	clear: both;
 }
 /* Everything CSS Sprite Menu */
@@ -223,8 +222,8 @@ footer{
 	text-align: center;
 
 }
-footer img{
-	width: 20%;
+footer img{/*
+	width: 20%;*/
 }
 footer a{
 	text-decoration: none;
