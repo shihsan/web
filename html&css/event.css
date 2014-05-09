@@ -1,0 +1,118 @@
+/*********************************************************************************/
+/* header-wrapper                                                                */
+/*********************************************************************************/
+body
+{
+	width:100%;
+}
+#header-wrapper
+{
+	height:5em;
+	background-color: #FFDE5E;
+	margin-bottom: 2em;
+}
+#header-wrapper #logo
+{
+	display:block;
+	float:left;
+	padding-left: 2em;
+}
+#header-wrapper #Left-nav ul
+{
+	display:block;
+	float:left;
+	padding-left: 2em;
+	padding-top: 1.5em;
+}
+#header-wrapper #Right-nav ul
+{
+	display:block;
+	float:right;
+	padding-right: 2em;
+	padding-top: 1.5em;
+}
+	
+#header-wrapper #Left-nav li , #header-wrapper #Right-nav li
+{
+	display: inline;
+	padding-right: 2em;
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+.event_add
+{
+	height:2em;
+	padding-left: 70em;
+}
+.event_block
+{
+	border-radius: 0.5em;
+	height:30em;
+	width: 20em;
+	background-color: rgb(255 , 187 , 100);
+	display: block;
+	float: left;
+	margin-right: 2em;
+	margin-left: 3em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+ .event_block img
+{
+	border-radius: 0.5em;
+	height:18em;
+	width: 18em;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin:0 auto;
+}
+
+
+/*********************************************************************************/
+/* footer                                                                        */
+/*********************************************************************************/
+footer{
+	padding-top: 1.5em;
+	font-size: 1em;
+	color: rgb(234 , 97 , 48);
+	clear:both;
+	background-color: rgb(255 , 222 , 94);
+	height: 3em;
+}
+
+footer a{
+	text-decoration: none;
+	color: rgb(234 , 97 , 48);
+}
+footer a:link 
+{
+	color: rgb(234 , 97 , 48);
+}　　　　/*//宣告連結顏色*/
+footer a:visited 
+{
+	color: rgb(234 , 97 , 48);
+}　   　 /*//訪問過連結顏色*/
+footer a:active
+{
+	color: rgb(234 , 97 , 48);
+}　　     /*//執行中連結顏色*/
+footer a:hover
+{
+	color: rgb(234 , 97 , 48);
+}             /*//當滑鼠移到連結時連結顏色*/
+
+footer ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: table;
+	list-style-type: none;
+}
+footer li
+{
+	display: table-cell;
+	text-align: center;
+}
