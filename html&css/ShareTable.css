@@ -16,6 +16,14 @@ body
 	padding-left: 2em;
 }
 
+#header-wrapper #logo img{
+	width: 8em;
+	padding-top: 3px;
+}
+#header-wrapper #logo::after{
+	clear: both;
+}
+
 /* Everything CSS Sprite Menu */
 ul#menu
 {	
@@ -165,12 +173,14 @@ ul#menu
 
 .thoughts_title h2
 {
+	color: rgb(250 , 80 , 5);
 	display:inline;
 	float:left;
 	padding-left: 2em;
 }
 .thoughts_title h3
 {
+	color: rgb(255 , 185 , 100);
 	display:inline;
 	float:right;
 	padding-right: 2em;
@@ -210,10 +220,6 @@ footer{
 	background-color: rgb(255 , 222 , 94);
 	height: 18em;
 	text-align: center;
-
-}
-footer img{
-	width: 20%;
 }
 footer a{
 	text-decoration: none;
