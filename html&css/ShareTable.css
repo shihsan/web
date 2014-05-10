@@ -171,13 +171,9 @@ ul#menu
 	height:5em;
 }
 
-.thoughts_title h1
+.thoughts_title h2
 {
-<<<<<<< HEAD
 	color: rgb(250 , 80 , 5);
-=======
-	color:rgb(250,80,5);
->>>>>>> 2ccc7429522b05c436bfada49150fbf6c185cf0d
 	display:inline;
 	float:left;
 	padding-left: 2em;
