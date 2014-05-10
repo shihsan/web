@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>小人物：我的頁面</title>
+</head>
+
+<body>
+	<nav>
+		<h1>小人物</h1>
+		<ul class="Left-nav">
+			<li><h3>尋找志活</h3></li>
+			<li><h3>分享感動</h3></li>
+			<li><h3>公益組織</h3></li>
+		</ul>
+		<ul class="Right-nav">
+			<li><h5>登入</h5></li>
+			<li><h5>註冊</h5></li>
+		</ul>	
+	</nav>
+
+	<form action="TARGET FORM" method="POST" id="form">
+          <h3>Contact Form</h3>
+          <p><input type="hidden" name="entry.0.single" value="101104020"  ></p>
+
+          <h4><label for="name"> 姓名</label></h4>
+        <input type="text" name="entry.4.single" id="name">
+
+        <h4>出生年月日</h4>
+        <label for="birth_year"> 年</label>
+        <input type="text" name="entry.4.single" id="birth_year">
+        <label for="birth_month"> 月</label>
+        <input type="text" name="entry.4.single" id="birth_year">
+        <label for="birth_day"> 日</label>
+        <input type="text" name="entry.4.single" id="birth_year">
+
+          <h4>性別</h4>
+          <ul>
+            <li>
+              <input type="radio" name="entry.1.group" value="Boy">
+              <label for="boy">男</label>
+            </li>
+            <li>
+              <input type="radio" name="entry.1.group" value="Girl">
+              <label for="girl">女</label>
+            </li>
+          </ul>
+
+	  	  <h4>婚姻狀態</h4>
+          <ul>
+            <li>
+              <input type="radio" name="entry.1.group" value="Married">
+              <label for="married">已婚</label>
+            </li>
+            <li>
+              <input type="radio" name="entry.1.group" value="Unmarried">
+              <label for="unmarried">未婚</label>
+            </li>
+          </ul>
+
+         <h4><label for="email"> Email</label></h4>
+        <input type="email" name="entry.4.single" id="email">
+
+         <h4><label for="volun_interest">志工興趣</label></h4>
+        <textarea name="entry.5.single" id="volun_interest" cols="17"></textarea>
+
+         <h4><label for="volun_skill">志工專長</label></h4>
+        <textarea name="entry.5.single" id="volun_skill" cols="17"></textarea>
+
+
+          <h4>是否曾擔任過志工？</h4>
+          <ul>
+            <li>
+              <input type="radio" name="entry.1.group" value="Boy">
+              <label for="boy">是</label>
+            </li>
+            <li>
+              <input type="radio" name="entry.1.group" value="Girl">
+              <label for="girl">否</label>
+            </li>
+          </ul>
+
+          <h4>是否曾參加志工相關訓練？</h4>
+          <ul>
+            <li>
+              <input type="radio" name="entry.1.group" value="Trained_yes">
+              <label for="trained_yes">是</label>
+            </li>
+            <li>
+              <input type="radio" name="entry.1.group" value="Trained_no">
+              <label for="trained_no">否</label>
+            </li>
+          </ul>          
+
+          <h4>已取得志願服務記錄手冊</h4>
+          <ul>
+            <li>
+              <input type="radio" name="entry.1.group" value="Record_yes">
+              <label for="record_yes">是</label>
+            </li>
+            <li>
+              <input type="radio" name="entry.1.group" value="Record_no">
+              <label for="record_no">否</label>
+            </li>
+          </ul>  
+
+          <h4> 從何處得知招募志工消息？</h4>
+          <ul>
+            <li>
+
+              <input type="checkbox" name="entry.2.group" value="Somebody">
+              <label for="somebody">小人物網站</label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="entry.2.group" value="NGO">
+               <label for="NGO">公益組織網站</label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Media">
+               <label for="media">媒體</label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Introduce">
+               <label for="introduce">志工介紹</label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Other">
+               <label for="other">其他</label>
+            </li>
+
+          </ul>
+
+         <h4><label for="comment">參與動機</label></h4>
+        <textarea name="entry.5.single" id="volun_motivation" cols="17"></textarea>
+
+         <h4><label for="comment">希望獲得</label></h4>
+        <textarea name="entry.5.single" id="volun_gain" cols="17"></textarea>
+
+         </br>
+         <input type="submit" value="提交" name="submit" onclick="sendVal()">
+        </form>
+
+
+
+	<footer>
+		<ul>
+			<li><h6>關於我們</h6></li>
+			<li><h6>常見問答</h6></li>
+			<li><h6>聯絡我們</h6></li>
+		</ul>
+	</footer>
+</body>
+
+</html>
