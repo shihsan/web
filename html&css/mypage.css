@@ -170,7 +170,130 @@ ul#menu
 /*********************************************************************************/
 /* content                                                                       */
 /*********************************************************************************/
+.thoughts img
+{
+	margin-left: 5em;
+	margin-bottom: 2em;
+	width:500px;
+	height:500px;
+	float:left;
+	border-radius: 2em;
 
+}
+.thoughts .self-introduction 
+{
+	width:500px;
+	height: 500px;
+	float:left;
+	margin-left: 5em;
+	margin-bottom: 2em;
+	background-color:rgb(255,220,95);
+	border-radius: 2em;
+}
+.thoughts .self-introduction h3
+{
+	color: white;
+	background-color:rgb(255,175,60);
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+	text-align: center;
+	height: 1em;
+	padding: 1em;
+	margin-top:0; 
+}
+.thoughts .self-introduction ul
+{
+	list-style-type: none;
+	line-height: 5em;
+}
+.thoughts .detail 
+{
+	clear:both;
+	margin-left:5em; 
+	margin-bottom: 2em;
+	width:1000px;
+	height: 1200px;
+	background-color:rgb(255,220,95);
+	border-radius: 2em;
+	display: block;
+	padding: 2em;
+}
+
+/*.thoughts .detail .tag::before{
+	clear: both;
+	display: inline;
+}
+.thoughts .detail .tag::after{
+	display: block;
+}
+*/
+.thoughts .detail .tag ul{
+	width: 50%;
+	margin: 0;
+	padding:0;
+	display: table;
+	list-style-type: none;
+	text-align: center;
+}
+.thoughts .detail .tag li
+{
+	display: table-cell;
+}
+.thoughts .detail .tag li a{
+	text-decoration: none;
+	color: white;
+}
+.thoughts .detail .tag li a:link 
+{
+	color: white;
+}　　　　/*//宣告連結顏色*/
+.thoughts .detail .tag li a:visited 
+{
+	color: white;
+}　   　 /*//訪問過連結顏色*/
+.thoughts .detail .tag li a:active
+{
+	color: white;
+}　　     /*//執行中連結顏色*/
+.thoughts .detail .tag li a:hover
+{
+	color: white;
+}             /*//當滑鼠移到連結時連結顏色*/
+.thoughts .detail .tag li a.joined{
+	color: rgb(250 , 80 , 5);
+}
+
+
+.event_block
+{
+	border-radius: 0.5em;
+	height:20em;
+	width: 15em;
+	background-color: #ffe187;
+	display: block;
+	float: left;
+	margin-right: 2em;
+	margin-left: 3em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+ .event_block img
+{
+	border-radius: 0.5em;
+	height:13em;
+	width: 13em;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin:0 auto;
+}
+ .event_block .event_info p{
+ 	color: rgb(195 , 55 , 30);
+ 	font-size: 1.2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	line-height: 2em;
+	text-align: center;
+ }
 
 
 /*********************************************************************************/
