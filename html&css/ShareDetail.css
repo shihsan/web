@@ -267,3 +267,7 @@ footer li
 {
 	display: table-cell;
 }
+footer img
+{
+	width: 100%;
+}

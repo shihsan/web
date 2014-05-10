@@ -192,7 +192,7 @@ ul#menu
 .thoughts_table .feedback
 {
 	height:15em;
-	width:100em;
+	width:50em;
 	margin-bottom: 2em;
 
 }
@@ -220,6 +220,7 @@ footer{
 	background-color: rgb(255 , 222 , 94);
 	height: 18em;
 	text-align: center;
+
 }
 footer a{
 	text-decoration: none;
@@ -253,4 +254,8 @@ footer ul{
 footer li
 {
 	display: table-cell;
+}
+footer img
+{
+	width: 100%;
 }

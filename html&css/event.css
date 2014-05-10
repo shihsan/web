@@ -341,3 +341,7 @@ footer li
 	display: table-cell;
 	text-align: center;
 }
+footer img
+{
+	width: 100%;
+}
