@@ -4,6 +4,20 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="mypage.css" />
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../fancyBox/lib/jquery-1.10.2.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../fancyBox/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../fancyBox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("#pic").fancybox({
+    		openEffect	: 'elastic',
+    		closeEffect	: 'elastic',
+    	});
+	});
+	</script>
 	<title>小人物</title>
 </head>
 
@@ -32,7 +46,7 @@
 	<!--content-->
 	<div class="thoughts">
 		<div class="pic">
-			<img  src="images/sister.jpg" alt="個人照片">			
+			<a id="pic" href="images/sister.jpg"><img  src="images/sister.jpg" alt="個人照片"></a>		
 		</div>
 		<div class="self-introduction">
 			<h3>姓名 / Nickname</h3>
