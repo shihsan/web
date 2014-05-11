@@ -2,6 +2,7 @@ body{
   background: #FFFFFF;
   font-family: 'Montserrat', Arial;
   font-size: 1em;
+
 }
 
 
@@ -95,12 +96,22 @@ input:focus{
   float: right;
 }
 
-input #birth_year;
-input #birth_month;
-input #birth_day;{
+#birth_year,
+#birth_month,
+#birth_day{
   width:50px;
 }
 
-#content{
-  padding: 50px;
+.tel_company,
+.tel_home,
+.tel_mobile{
+  display:block;
+}
+
+.content{
+  padding: 20px;
+}
+
+ul{
+    list-style-type: none;
 }
