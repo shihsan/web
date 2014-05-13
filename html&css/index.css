@@ -219,6 +219,7 @@ ul#menu
 /*********************************************************************************/
 footer{
 	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 	font-size: 1em;
 	color: rgb(234 , 97 , 48);
 	clear:both;
