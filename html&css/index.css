@@ -192,6 +192,11 @@ ul#menu
 	display: block;
 	float: left;
 	margin-right: 2em;
+	border-radius: 2em;
+}
+.box1,.box4
+{
+	margin-left: 3em;
 }
 .box4, .box5,.box6
 {
@@ -253,4 +258,8 @@ footer ul{
 footer li
 {
 	display: table-cell;
+}
+footer img
+{
+	width: 100%;
 }

@@ -3,14 +3,29 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>小人物：我的頁面</title>
+	<link rel="stylesheet" type="text/css" href="mypage.css" />
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../fancyBox/lib/jquery-1.10.1.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../fancyBox/source/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="../fancyBox/source/jquery.fancybox.css" media="screen" />
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("#pic").fancybox({
+    		openEffect	: 'elastic',
+    		closeEffect	: 'elastic',
+    	});
+	});
+	</script>
+	<title>小人物</title>
 </head>
 
 <body>
-<!--nav bar-->
+	<!--nav bar-->
 	<div id="header-wrapper">
 		<div id="logo">
-			<h1><a href="index.html">小人物</a></h1>
+			<a href="index.html"><img src="images/logo/logo3_red.png" alt="logo"></a>
 		</div>
 		<div id="Left-nav">
 			<ul id="menu">
@@ -26,122 +41,136 @@
 			</ul>
 		</div>
 	</div>
-<!--end of nav bar-->
+	<!--end of nav bar-->
 
-<!--content-->
-
-	<div>
-		<div class="my_photo">
-			照片HERE
+	<!--content-->
+	<div class="thoughts">
+		<div class="pic">
+			<a id="pic" href="images/sister.jpg"><img  src="images/sister.jpg" alt="個人照片"></a>		
 		</div>
-		<div class="about_me">
-			關於我
+		<div class="self-introduction">
+			<h3>姓名 / Nickname</h3>
+			<ul>
+				<li>個人資料：______________</li>
+				<li>個人資料：______________</li>
+				<li>個人資料：______________</li>
+				<li>個人資料：______________</li>
+				<li>個人資料：______________</li>
+			</ul>
+		</div>
+		
+
+		<div class="detail">
+			<div class="tag">
+				<ul>
+					<li><a class="joined" href="#" title=""><h3>參加過的志活</h3></a></li>
+					<li><a href="#" title=""><h3>收藏的志活</h3></a></li>
+					<li><a href="#" title=""><h3>個人心得</h3></a></li>
+				</ul>
+			</div>
+
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>	
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>	
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>	
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+			</div>
+			<div class="event_block">
+				<div  class="event_pic">	
+					<img src="images/event/event_1.jpg">
+				</div>
+				<div class="event_info">	
+					<p>「看見太陽成長團體」心衛志工</p>
+				</div>
+				
+
+			</div>
+<!-- 
+			<div class="follow_act">
+				<h3>收藏的志活</h3>
+				
+
+			</div>
+
+			<div class="my_article">
+				<h3>個人心得</h3>
+				
+
+			</div> -->
 		</div>
 	</div>
+	<!--end of content-->
 
-	<div>
-		<div class="joined_act">
-			<h3>參加過的志活</h3>
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-
-			<section>
-			</section>
-
-			<section>
-			</section>
-		
-			<section>
-			</section>
-
-			<section>
-			</section>
-		</div>
-		<div class="follow_act">
-			<h3>收藏的志活</h3>
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-
-			<section>
-			</section>
-
-			<section>
-			</section>
-		
-			<section>
-			</section>
-
-			<section>
-			</section>
-			
-		</div>
-		<div class="my_article">
-			<h3>個人心得</h3>
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-		
-			<section>
-			</section>
-
-			<section>
-			</section>
-
-			<section>
-			</section>
-		
-			<section>
-			</section>
-
-			<section>
-			</section>
-			
-		</div>
-	</div>
-<!--end of content-->
-
-<!--footer-->
+	<!--footer-->
 
 	<footer>
+		<img src="images/logo/logo8_red_footer.png" alt="footer_logo">
 		<ul>
-			<li><a href="about.html" title="">關於我們</a></li>
-			<li><a href="question.html" title="">常見問答</a></li>
-			<li><a href="contact.html" title="">聯絡我們</a></li>
+			<li><a href="footer.html" title="">關於我們</a></li>
+			<li><a href="footer.html#QA" title="">常見問答</a></li>
+			<li><a href="footer.html#contact" title="">聯絡我們</a></li>
 		</ul>
+		<h6>Copyright &copy; 2014 Somebody - All Rights Reserved.</h6>
 	</footer>
-<!--end of footer-->
+	<!--end of footer-->
 </body>
 
 </html>

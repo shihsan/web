@@ -170,6 +170,7 @@ ul#menu
 /*********************************************************************************/
 /* content                                                                       */
 /*********************************************************************************/
+<<<<<<< HEAD
 .content,.QA,.contact{
 	font:20px/1 '微軟正黑體',sans-serif;
 	text-align:left;	
@@ -186,6 +187,52 @@ ul#menu
 }
 */
 
+=======
+.content{
+	padding-bottom: 8em;
+}
+.content .introduction, .content .QA, .content .contact{
+	padding-left: 2em;
+}
+.content .detail{
+	padding: 0 4em 1em 2em;
+}
+.content hr{
+	margin-top: 2em;
+	height: 3px;
+	border: none;
+	border-top: 2px solid rgb(250 , 80 , 5);
+	width: 98%;
+}
+.content h2
+{
+	color: rgb(250 , 80 , 5);
+	line-height: 3em;
+	padding-left: 1em;
+}
+.introduction .detail #title{
+	text-align: center;
+}
+.introduction .detail ul{
+	margin-top: 3em;
+	line-height: 2em;
+}
+.introduction .detail span{
+	font-size: 1.2em;
+}
+.QA .detail ul{
+	list-style-type: none;
+	line-height: 2em;
+}
+.QA .detail ul li{
+	margin-top: 2em;
+}
+.contact .detail h5{
+	font-size: 1.1em;
+	float: right;
+	margin-right: 10em;
+}
+>>>>>>> 852d60239ec49033df1121986478cddee2f562a8
 /*********************************************************************************/
 /* footer                                                                        */
 /*********************************************************************************/
@@ -197,10 +244,13 @@ footer{
 	background-color: rgb(255 , 222 , 94);
 	height: 18em;
 	text-align: center;
+<<<<<<< HEAD
 
 }
 footer img{/*
 	width: 20%;*/
+=======
+>>>>>>> 852d60239ec49033df1121986478cddee2f562a8
 }
 footer a{
 	text-decoration: none;
@@ -235,3 +285,10 @@ footer li
 {
 	display: table-cell;
 }
+<<<<<<< HEAD
+=======
+footer img
+{
+	width: 100%;
+}
+>>>>>>> 852d60239ec49033df1121986478cddee2f562a8

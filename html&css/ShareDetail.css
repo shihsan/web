@@ -1,8 +1,12 @@
+/*********************************************************************************/
+/* header-wrapper                                                                */
+/*********************************************************************************/
 body
 {
 	width:100%;
 	margin: 0;
 }
+
 #header-wrapper
 {
 	height:5em;
@@ -16,6 +20,13 @@ body
 	padding-left: 2em;
 }
 
+#header-wrapper #logo img{
+	width: 8em;
+	padding-top: 3px;
+}
+#header-wrapper #logo::after{
+	clear: both;
+}
 /* Everything CSS Sprite Menu */
 ul#menu
 {	
@@ -222,10 +233,6 @@ footer{
 	background-color: rgb(255 , 222 , 94);
 	height: 18em;
 	text-align: center;
-
-}
-footer img{
-	width: 20%;
 }
 footer a{
 	text-decoration: none;
@@ -259,4 +266,8 @@ footer ul{
 footer li
 {
 	display: table-cell;
+}
+footer img
+{
+	width: 100%;
 }
