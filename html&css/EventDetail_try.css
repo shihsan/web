@@ -174,39 +174,13 @@ ul#menu
 /*********************************************************************************/
 
 a{
-	text-decoration: none;
-	color: rgb(234 , 97 , 48);
+text-decoration:none;
 }
-a:link 
-{
-	color: rgb(234 , 97 , 48);
-}　　　　/*//宣告連結顏色*/
-a:visited 
-{
-	color: rgb(234 , 97 , 48);
-}　   　 /*//訪問過連結顏色*/
-a:active
-{
-	color: rgb(234 , 97 , 48);
-}　　     /*//執行中連結顏色*/
-a:hover
-{
-	color: rgb(234 , 97 , 48);
-}             /*//當滑鼠移到連結時連結顏色*/
-
 
 .eventDetail_title
 {
 	text-align:center;
 	font:36px/0.3 '微軟正黑體',sans-serif;	
-	
-	/*版塊樣式*/
-	color: rgb(195 , 55 , 30);
-	background-color: #ffe187;
-	width:700px;
-	margin-left: 2em;
-	border-radius: 0.5em;
-	padding:1em;
 
 }
 .event_block
@@ -235,23 +209,13 @@ a:hover
 
 .eventDetail_info
 {
-
-	color: rgb(195 , 55 , 30);
-	font:1em/3em '微軟正黑體',sans-serif;
-	 width:400px;
+	width:500px;
 	height: 200px;
 	float:left;
-	margin-left: 2em;
-	margin-top: 2em;
+	margin-left: 5em;
 	margin-bottom: 2em;
 	background-color:rgb(255,220,95);
 	border-radius: 2em;
-	line-height:1.2em;
-}
-
-.eventDetail_info li
-{	
-	list-style-type:none;
 }
 
 
@@ -261,32 +225,8 @@ a:hover
 	text-align:center;
 	background-color:rgb(255,220,95);
 	border-radius: 2em;
-	
-	/*版塊樣式*/
-	color: rgb(195 , 55 , 30);
-	background-color: #ffe187;
-	width:700px;
-	margin-left: 2em;
-	margin-bottom: 2em;
-	border-radius: 0.5em;
-	padding:1em;
-}
-
-.eventDetail_detail
-{
-	/*版塊樣式*/
-	color: rgb(195 , 55 , 30);
-	background-color: #ffe187;
-	width:700px;
-	margin-left: 2em;
-	margin-top: 2em;
-	margin-bottom: 2em;
-	border-radius: 0.5em;
-	padding:1em;
-	font:1em/3em '微軟正黑體',sans-serif;
 
 }
-
 /*.detail h3
 {
 	background-color:rgb(255,175,60);
