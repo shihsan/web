@@ -173,6 +173,8 @@ ul#menu
 /*********************************************************************************/
 .content{
 	padding-bottom: 8em;
+	width:800px;
+	margin:3em auto; 
 }
 .content .introduction, .content .QA, .content .contact{
 	padding-left: 2em;
