@@ -173,6 +173,12 @@ ul#menu
 /* content                                                                       */
 /*********************************************************************************/
 
+section{
+	block:;
+	width: 850px;
+	margin: 0 auto;
+}
+
 a{
 	text-decoration: none;
 	color: rgb(234 , 97 , 48);
@@ -204,7 +210,7 @@ a:hover
 	color: rgb(195 , 55 , 30);
 	background-color: #ffe187;
 	width:700px;
-	margin-left: 2em;
+	margin:2em auto;
 	border-radius: 0.5em;
 	padding:1em;
 
@@ -266,8 +272,7 @@ a:hover
 	color: rgb(195 , 55 , 30);
 	background-color: #ffe187;
 	width:700px;
-	margin-left: 2em;
-	margin-bottom: 2em;
+	margin:0 auto;
 	border-radius: 0.5em;
 	padding:1em;
 }
@@ -278,9 +283,7 @@ a:hover
 	color: rgb(195 , 55 , 30);
 	background-color: #ffe187;
 	width:700px;
-	margin-left: 2em;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin:2em auto;
 	border-radius: 0.5em;
 	padding:1em;
 	font:1em/3em '微軟正黑體',sans-serif;
