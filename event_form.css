@@ -206,7 +206,7 @@ ul#menu
   color: #36383C;
   text-shadow: 0 1px 0 #FFF;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 3em auto;
   border:solid 50px;
   border-color:#C3371E;
   padding: 15px 40px 20px 40px;
