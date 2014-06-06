@@ -202,7 +202,7 @@ a:hover
 }             /*//當滑鼠移到連結時連結顏色*/
 
 
-.eventDetail_title
+.Detail_title
 {
 	text-align:center;
 	font:36px/0.3 '微軟正黑體',sans-serif;	
@@ -212,8 +212,8 @@ a:hover
 	background-color: #333333;
 	width:800px;
 	/*height:150px;*/
-	margin:2em auto;
-	padding:1em 0;
+	margin:1em auto;
+	padding:.8em 0;
 
 }
 
@@ -256,7 +256,7 @@ a:hover
 .main_up
 {
 	width:800px;
-	height: 500px;
+	height: 450px;
 	color: #333333;
 	background-color: #e5e4e4;
 }
