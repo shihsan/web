@@ -1,12 +1,14 @@
 /*********************************************************************************/
 /* header-wrapper                                                                */
 /*********************************************************************************/
+
+
+
 body
 {
 	width:100%;
 	margin: 0;
 }
-
 #header-wrapper
 {
 	height:5em;
@@ -27,6 +29,7 @@ body
 #header-wrapper #logo::after{
 	clear: both;
 }
+
 /* Everything CSS Sprite Menu */
 ul#menu
 {	
@@ -107,6 +110,7 @@ ul#menu
 	background-position:-125px -145px;
 }
 
+
 /* ngo Button */
 
 #Left-nav li.ngo
@@ -166,115 +170,59 @@ ul#menu
 {
 	background-position:-370px -145px;
 }
-
 /*********************************************************************************/
 /* content                                                                       */
 /*********************************************************************************/
-.thoughts
-{
-	width: 800px;
+
+section{
+	block:;
+	width: 1300px;
+	margin: 0 auto;
 }
 
-
-.thoughts img
-{
-	margin-left: 5em;
-	margin-bottom: 2em;
-	width:300px;
-	height:300px;
-	float:left;
-	border-radius: 2em;
-
-}
-.thoughts .self-introduction 
-{
-	width:400px;
-	height: 400px;
-	float:left;
-	margin-left: 5em;
-	margin-bottom: 2em;
-	background-color:rgb(255,220,95);
-	border-radius: 2em;
-}
-.thoughts .self-introduction h3
-{
-	color: white;
-	background-color:rgb(255,175,60);
-	border-top-left-radius:2em;
-	border-top-right-radius:2em;
-	text-align: center;
-	height: 1em;
-	padding: 1em;
-	margin-top:0; 
-}
-.thoughts .self-introduction ul
-{
-	list-style-type: none;
-	line-height: 5em;
-}
-.thoughts .detail 
-{
-	clear:both;
-	margin-left:5em; 
-	margin-bottom: 2em;
-	width:1000px;
-	height: 1200px;
-	background-color:rgb(255,220,95);
-	border-radius: 2em;
-	display: block;
-	padding: 2em;
-}
-
-/*.thoughts .detail .tag::before{
-	clear: both;
-	display: inline;
-}
-.thoughts .detail .tag::after{
-	display: block;
-}
-*/
-.thoughts .detail .tag ul{
-	width: 50%;
-	margin: 0;
-	padding:0;
-	display: table;
-	list-style-type: none;
-	text-align: center;
-}
-.thoughts .detail .tag li
-{
-	display: table-cell;
-}
-.thoughts .detail .tag li a{
+a{
 	text-decoration: none;
-	color: white;
+	color: rgb(234 , 97 , 48);
 }
-.thoughts .detail .tag li a:link 
+a:link 
 {
-	color: white;
+	color: rgb(234 , 97 , 48);
 }　　　　/*//宣告連結顏色*/
-.thoughts .detail .tag li a:visited 
+a:visited 
 {
-	color: white;
+	color: rgb(234 , 97 , 48);
 }　   　 /*//訪問過連結顏色*/
-.thoughts .detail .tag li a:active
+a:active
 {
-	color: white;
+	color: rgb(234 , 97 , 48);
 }　　     /*//執行中連結顏色*/
-.thoughts .detail .tag li a:hover
+a:hover
 {
-	color: white;
+	color: rgb(234 , 97 , 48);
 }             /*//當滑鼠移到連結時連結顏色*/
-.thoughts .detail .tag li a.joined{
-	color: rgb(250 , 80 , 5);
+
+
+.eventDetail_title
+{
+	text-align:center;
+	font:36px/0.3 '微軟正黑體',sans-serif;	
+	
+	/*版塊樣式*/
+	color: #FFFFFF;
+	background-color: #333333;
+	width:1300px;
+	height:150px;
+	margin:2em auto;
+	border-radius: 0.5em;
+	padding:1em;
+
 }
-
-
 .event_block
 {
+	color: rgb(195 , 55 , 30);
 	border-radius: 0.5em;
-	height:20em;
-	width: 15em;
+	height:25em;
+	width: 20em;
 	background-color: #ffe187;
 	display: block;
 	float: left;
@@ -286,21 +234,172 @@ ul#menu
  .event_block img
 {
 	border-radius: 0.5em;
-	height:13em;
-	width: 13em;
+	height:18em;
+	width: 18em;
 	padding-left: 1em;
 	padding-top: 1em;
 	margin:0 auto;
 }
- .event_block .event_info p{
- 	color: rgb(195 , 55 , 30);
- 	font-size: 1.2em;
-	padding-left: 1em;
-	padding-right: 1em;
-	line-height: 2em;
-	text-align: center;
- }
 
+.eventDetail_info
+{
+
+	color: rgb(195 , 55 , 30);
+	font:1em/3em '微軟正黑體',sans-serif;
+	 width:400px;
+	height: 200px;
+	float:left;
+	margin-left: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background-color:rgb(255,220,95);
+	border-radius: 2em;
+	line-height:1.2em;
+}
+
+.eventDetail_info li
+{	
+	list-style-type:none;
+}
+
+
+.eventDetail_shareBtn
+{
+	clear:both; 
+	text-align:center;
+	background-color:rgb(255,220,95);
+	border-radius: 2em;
+	
+	/*版塊樣式*/
+	color: rgb(195 , 55 , 30);
+	background-color: #ffe187;
+	width:700px;
+	margin:0 auto;
+	border-radius: 0.5em;
+	padding:1em;
+}
+
+.eventDetail_detail
+{
+	/*版塊樣式*/
+	color: rgb(195 , 55 , 30);
+	background-color: #ffe187;
+	width:700px;
+	margin:2em auto;
+	border-radius: 0.5em;
+	padding:1em;
+	font:1em/3em '微軟正黑體',sans-serif;
+
+}
+
+/*.detail h3
+{
+	background-color:rgb(255,175,60);
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+	text-align: center;
+	height: 1em;
+	padding: 1em;
+	margin-top:0; 
+}
+
+.event_info ul
+{
+	list-style-type: none;
+	line-height: 1.5em;
+}
+  */
+
+/*********************************************************************************/
+/* search-bar                                                                    */
+/*********************************************************************************/
+
+#mwt_mwt_slider_scroll
+{
+	top: 0;
+	right:-200px;
+	width:200px;	
+	position:fixed;
+	z-index:9999;
+}
+
+
+#mwt_slider_content{
+	background:#ffb964;
+	text-align:left;
+	padding-top:20px;
+	padding-left: 1.2em;
+}
+#mwt_slider_content h3
+{
+	color:rgb(195,55,30);
+}
+#mwt_slider_content ul
+{
+	color:black;
+	list-style-type: none;
+}
+#mwt_slider_content li
+{
+	line-height: 1.5em;
+}
+ 
+#mwt_fb_tab {
+	position:absolute;
+	top:170px;
+	left:-24px;
+	width:24px;
+	background:#ffb964;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;	
+	text-align:center;
+	padding:9px 0;
+ 
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;	
+}
+#mwt_fb_tab span {
+	display:block;
+	height:12px;
+	padding:1px 0;
+	line-height:12px;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+.search label{
+    font-size:0.75em;
+    font-weight:bold;
+    color:#333;
+    text-indent:-9999em;
+    display:block;
+    float:left;
+}
+.search input[type="text"]{
+    text-indent:1px;
+    padding:0 0 0 22px;
+    width:0;
+    height:22px;
+    background:url(http://www.ian-thomas.net/examples/search-icon.png)2px 2px no-repeat, -webkit-linear-gradient(top, rgba(100,100,100,1) 0%,rgba(80,80,80,1) 10%,rgba(22,22,22,1)100%);
+    color:#999;
+    line-height:20px;
+    font-weight:bold;
+    -webkit-text-shadow:1px 1px 1pxrgba(0,0,0,0.05);
+    text-shadow:1px 1px 1pxrgba(0,0,0,0.05);
+    -webkit-border-radius:6px;
+    -webkit-box-shadow:1px 1px 0rgba(0,0,0,0.125);
+    cursor:pointer;
+     width:150px;
+}
+.search input[type="text"]:focus{
+    width:150px;
+    outline:none;
+    background:url(http://www.ian-thomas.net/examples/search-icon.png)2px 2px no-repeat, -webkit-linear-gradient(bottom,rgba(100,100,100,1) 0%, rgba(40,40,40,1) 2%, rgba(22,22,22,1)100%);
+    -webkit-box-shadow:1px 1px 0 rgba(255,255,255,0.125);
+    cursor:text;
+}
 
 /*********************************************************************************/
 /* footer                                                                        */
@@ -314,8 +413,8 @@ footer{
 	background-color: rgb(255 , 222 , 94);
 	height: 18em;
 	text-align: center;
-	margin: 0;
 }
+
 footer a{
 	text-decoration: none;
 	color: rgb(234 , 97 , 48);
@@ -348,10 +447,7 @@ footer ul{
 footer li
 {
 	display: table-cell;
-}
-footer img
-{
-	width: 100%
+	text-align: center;
 }
 footer img
 {
